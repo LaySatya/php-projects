@@ -1,0 +1,74 @@
+[
+    {
+        "avatar": "1.jpg",
+        "name": "Jane Cooper",
+        "position": "Paradigm Representative",
+        "role": "Admin"
+    },
+    {
+        "avatar": "2.jpg",
+        "name": "Cody Fisher",
+        "position": "Lead Security Associate",
+        "role": "Admin"
+    },
+    {
+        "avatar": "3.jpg",
+        "name": "Esther Howard",
+        "position": "Assurance Administrator",
+        "role": "Admin"
+    },
+    {
+        "avatar": "4.jpg",
+        "name": "Kristin Watson",
+        "position": "Investor Data Orchestrator",
+        "role": "Admin"
+    },
+    {
+        "avatar": "5.jpg",
+        "name": "Cameron Williamson",
+        "position": "Product Infrastructure Executive",
+        "role": "Admin"
+    },
+    {
+        "avatar": "6.jpg",
+        "name": "Courtney Henry",
+        "position": "Invester Factors Associate",
+        "role": "Admin"
+    },
+    {
+        "avatar": "My pic.jpg",
+        "name": "Lay Satya",
+        "position": "Web Develper",
+        "role": "Admin"
+    },
+    {
+        "avatar": "Champion.jpg",
+        "name": "Information Technology",
+        "position": "Web Develper",
+        "role": "Admin"
+    },
+    {
+        "avatar": "photo_3_2024-02-24_21-59-02.jpg",
+        "name": "LAY SATYA",
+        "position": "Web Develper",
+        "role": "Admin"
+    },
+    {
+        "avatar": "repair.png",
+        "name": "fgsd",
+        "position": "dsfds",
+        "role": "Admin"
+    },
+    {
+        "avatar": "repair.png",
+        "name": "fagdsf",
+        "position": "dsfds",
+        "role": "Admin"
+    },
+    {
+        "avatar": "repair.png",
+        "name": "dfg",
+        "position": "dsfdsfsd",
+        "role": "Admin"
+    }
+]

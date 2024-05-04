@@ -1,0 +1,65 @@
+[
+    {
+        "productID": "P01",
+        "productName": "Shoes",
+        "description": "Beautiful Shoes",
+        "category": "Shoes",
+        "image": "shoes.png"
+    },
+    {
+        "productID": "P02",
+        "productName": "Shirt",
+        "description": "Beautiful Shirt",
+        "category": "Shirt",
+        "image": "shirt.png"
+    },
+    {
+        "productID": "P03",
+        "productName": "Jacket",
+        "description": "Beautiful Jacket",
+        "category": "Jacket",
+        "image": "jacket.png"
+    },
+    {
+        "productID": "P04",
+        "productName": "Shirt",
+        "description": "Shirt is so beautiful I want to buy one for my teacher",
+        "category": "Shirt",
+        "image": "1.png"
+    },
+    {
+        "productID": "P05",
+        "productName": "Shirt",
+        "description": "This shirt is so cool and best for me ",
+        "category": "Shirt",
+        "image": "2.png"
+    },
+    {
+        "productID": "P04",
+        "productName": "Shoes",
+        "description": "tt",
+        "category": "Jacket",
+        "image": "photo_5_2024-02-24_21-59-02.jpg"
+    },
+    {
+        "productID": "P06",
+        "productName": "Shirt",
+        "description": "GG",
+        "category": "Shirt",
+        "image": "repair.png"
+    },
+    {
+        "productID": "P06",
+        "productName": "Shirt",
+        "description": "gg",
+        "category": "Shoes",
+        "image": "repair.png"
+    },
+    {
+        "productID": "P06",
+        "productName": "Shirt",
+        "description": "gg",
+        "category": "Shoes",
+        "image": "repair.png"
+    }
+]
