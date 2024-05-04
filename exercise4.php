@@ -1,10 +1,10 @@
 <?php
-    include"./Header/Header.php";
+    include"./header.php";
     session_start();
     if(isset($_POST['btnSave'])){
         $des = $_POST['txtDes'];
         $files = $_FILES['txtFiles']['name'];
-        $path = './uploadedFiles/';
+        $path = '';
         $total = 0;
         for($i = 0 ; $i < count($files) ; $i++){
             $tmp = $_FILES['txtFiles']['tmp_name'][$i];

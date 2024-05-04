@@ -1,5 +1,5 @@
 <?php
-    include "./Header/Header.php";
+    include "./header.php";
     session_start();
     include"./usersArray.php";
     if(isset($_POST['btnSave'])){

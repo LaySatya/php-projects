@@ -44,7 +44,7 @@
     ?>
     <div class="container-fluid mt-5">
         <h1 class="text-center mb-5">PHP AND BOOTSTRAP</h1>
-        <form action="Exercise6.php" method="get">
+        <form action="" method="get">
             <div class="row">
                 <div class="col-sm-6 col-8">
                     <select name="choice" id="data" class="form-control">

@@ -1,5 +1,5 @@
 <?php
-include "./Header/Header.php";
+include "./header.php";
 session_start();
 
 $staffs = [
@@ -94,7 +94,7 @@ $staffs = [
             foreach($staffs as $res) {
                 ?>
                 <div class="col-xl-3 mt-3 bg-white rounded text-center shadow-sm" style="cursor: pointer;">
-                    <img src="./img/<?php echo $res['avatar']; ?>" alt="" class="rounded-circle mt-3" width="120" , height="120">
+                    <img src="./<?php echo $res['avatar']; ?>" alt="" class="rounded-circle mt-3" width="120" , height="120">
                     <p class="h6 mt-3">
                         <?php echo $res['name']; ?>
                     </p>

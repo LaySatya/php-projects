@@ -1,5 +1,5 @@
 <?php
-include "./Header/Header.php";
+include "./header.php";
 session_start();
 
 $products = [
@@ -34,7 +34,7 @@ if (isset($_POST['btnSave'])) {
     $category = $_POST['category'];
     $img = $_FILES['images']['name'];
     $tmp = $_FILES['images']['tmp_name'];
-    $path = './img/';
+    $path = '';
     move_uploaded_file($tmp, $path . $img);
 
     $newProduct = [
@@ -69,7 +69,7 @@ if (isset($_POST['btnSave'])) {
     <div class="container mt-5 rounded border border">
         <div class="row p-2">
             <div class="col-xl-6">
-                <img src="./img/nike.png" class="rounded-circle" alt="" width="70" height="60">
+                <img src="./nike.png" class="rounded-circle" alt="" width="70" height="60">
             </div>
             <div class="col-xl-6">
                 <button type="submit" class="btn btn-success float-right mt-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -171,7 +171,7 @@ if (isset($_POST['btnSave'])) {
                                 <?php echo $value['category']; ?>
                             </td>
                             <td>
-                                <img src="./img/<?php echo $value['image']; ?>" alt="" height="40">
+                                <img src="./<?php echo $value['image']; ?>" alt="" height="40">
                             </td>
                         </tr>
                     <?php

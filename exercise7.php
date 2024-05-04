@@ -1,10 +1,10 @@
 <?php 
-    include"./Header/Header.php";
+    include"./header.php";
 ?>
 <body>
     <!-- header -->
     <?php 
-        include"./header.php";
+        include"./navbar.php";
     ?>
     
     <!-- product -->

@@ -1,5 +1,5 @@
 <?php 
-    include"./Header/Header.php";
+    include"./header.php";
     // array navbar
     $nav = array(
         array(

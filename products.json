@@ -35,31 +35,10 @@
         "image": "2.png"
     },
     {
-        "productID": "P04",
-        "productName": "Shoes",
-        "description": "tt",
-        "category": "Jacket",
-        "image": "photo_5_2024-02-24_21-59-02.jpg"
-    },
-    {
-        "productID": "P06",
+        "productID": "p08",
         "productName": "Shirt",
-        "description": "GG",
+        "description": "gg",
         "category": "Shirt",
-        "image": "repair.png"
-    },
-    {
-        "productID": "P06",
-        "productName": "Shirt",
-        "description": "gg",
-        "category": "Shoes",
-        "image": "repair.png"
-    },
-    {
-        "productID": "P06",
-        "productName": "Shirt",
-        "description": "gg",
-        "category": "Shoes",
         "image": "repair.png"
     }
 ]

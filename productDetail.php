@@ -1,5 +1,5 @@
 <?php
-    include"./Header/Header.php";
+    include"./header.php";
     include"./array.php";
     if(isset($_GET['code'])){
         $code = $_GET['code'];
@@ -8,7 +8,7 @@
 ?>
 <body>
     <?php
-        include"./header.php";
+        include"./navbar.php";
     ?>
     <?php
         foreach($data as $key => $value){

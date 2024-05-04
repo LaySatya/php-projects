@@ -70,5 +70,11 @@
         "Title": "Designer",
         "Email": "panhalay123@gmail.com",
         "Role": "Member"
+    },
+    {
+        "Name": "Testing",
+        "Title": "Front-end Developer",
+        "Email": "test@test.com",
+        "Role": "Member"
     }
 ]

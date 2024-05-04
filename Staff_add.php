@@ -1,12 +1,12 @@
 <?php
-    include "./Header/Header.php";
+    include "./header.php";
     session_start();
     if(isset($_POST['btnSave'])){
         $name = $_POST['txtName'];
         $position = $_POST['txtPosition'];
         $role = $_POST['txtRole'];
         $file = $_FILES['txtFile'];
-        $path = './img/';
+        $path = '';
         for($i = 0 ; $i < count($file['name']) ; $i++){
             $tmp = $file['tmp_name'][$i];
             move_uploaded_file($tmp ,$path.$file['name'][$i]);
@@ -62,7 +62,7 @@
                     <input type="file" class="form-control" name="txtFile[]" id="photo" multiple>
                 </div>
                 <div class="col-xl-6 mt-2 float-right">
-                    <img src="./img/image.jpg" id="preViewIMG" alt="" width="100%" height="300" style="object-fit:contain;">
+                    <img src="./image.jpg" id="preViewIMG" alt="" width="100%" height="300" style="object-fit:contain;">
                 </div>
             </div>
         </div>
